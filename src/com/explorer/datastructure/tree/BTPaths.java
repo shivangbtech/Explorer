@@ -3,6 +3,8 @@ package com.explorer.datastructure.tree;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.explorer.datastructure.tree.model.TreeNode;
+
 /**
  * Binary Tree Paths
  * Leet Code: https://leetcode.com/problems/binary-tree-paths/description/

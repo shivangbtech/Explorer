@@ -3,6 +3,8 @@ package com.explorer.datastructure.tree;
 import java.util.LinkedList;
 import java.util.Queue;
 
+import com.explorer.datastructure.tree.model.Node;
+
 /**
  * Populating Next Right Pointers in Each Node
  * Leet Code: https://leetcode.com/problems/populating-next-right-pointers-in-each-node/?envType=study-plan&id=algorithm-i

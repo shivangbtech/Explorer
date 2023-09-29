@@ -3,6 +3,8 @@ package com.explorer.datastructure.tree;
 import java.util.LinkedList;
 import java.util.Queue;
 
+import com.explorer.datastructure.tree.model.TreeNode;
+
 /**
  * Minimum Depth of Binary Tree
  * Leet Code: https://leetcode.com/problems/minimum-depth-of-binary-tree/description/

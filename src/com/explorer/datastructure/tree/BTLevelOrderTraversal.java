@@ -5,6 +5,9 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
+import com.explorer.datastructure.tree.model.Node;
+import com.explorer.datastructure.tree.model.TreeNode;
+
 /**
  * Binary Tree Level Order Traversal
  * Leet Code: https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/628/
@@ -49,5 +52,34 @@ public class BTLevelOrderTraversal {
 
         }
         return resultList;
+    }
+
+    private void levelOrder(Node root) {
+        if (root == null) {
+            return;
+        }
+        Queue<Node> queue = new LinkedList<>();
+        queue.add(root);
+        queue.add(null);
+
+        while (!queue.isEmpty()) {
+            Node currNode = queue.remove();
+            if (currNode == null) {
+                System.out.println();
+                if (queue.isEmpty()) {
+                    break;
+                }else {
+                    queue.add(null);
+                }
+            } else {
+                System.out.print(currNode.val + "");
+                if (currNode.left != null) {
+                    queue.add(currNode.left);
+                }
+                if (currNode.right != null) {
+                    queue.add(currNode.right);
+                }
+            }
+        }
     }
 }

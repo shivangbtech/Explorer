@@ -1,5 +1,7 @@
 package com.explorer.datastructure.tree;
 
+import com.explorer.datastructure.tree.model.TreeNode;
+
 /**
  * Merge Two Binary Trees
  * Leet Code: https://leetcode.com/problems/merge-two-binary-trees/description/?envType=study-plan&id=algorithm-i

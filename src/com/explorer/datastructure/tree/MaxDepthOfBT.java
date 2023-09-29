@@ -1,5 +1,7 @@
 package com.explorer.datastructure.tree;
 
+import com.explorer.datastructure.tree.model.TreeNode;
+
 /**
  * Maximum Depth of Binary Tree
  * Leet Code: https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/555/
