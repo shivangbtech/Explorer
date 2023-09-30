@@ -1,4 +1,4 @@
-package com.explorer.datastructure.tree;
+package com.explorer.datastructure.tree.basic;
 
 import com.explorer.datastructure.tree.model.TreeNode;
 

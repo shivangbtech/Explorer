@@ -1,6 +1,12 @@
-package com.explorer.datastructure.tree;
+package com.explorer.datastructure.tree.basic;
 
 import com.explorer.datastructure.tree.model.TreeNode;
+
+/**
+ * Height or Depth
+ *
+ * The height of a Binary Tree is defined as the maximum depth of any leaf node from the root node.
+ */
 
 /**
  * Maximum Depth of Binary Tree
