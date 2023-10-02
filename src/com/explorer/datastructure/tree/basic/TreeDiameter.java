@@ -42,10 +42,11 @@ public class TreeDiameter {
     }
     int leftDiameter = calculateDiameter(root.left);
     int rightDiameter = calculateDiameter(root.right);
+    // Calculate the diameter passing through the current node
     int currentDiameter = leftDiameter + rightDiameter;
-
+    // Update maxDiameter if the current diameter is greater
     maxDiameter = Math.max(maxDiameter, currentDiameter);
-
+    // Return the depth of the current node's subtree
     return Math.max(leftDiameter, rightDiameter) + 1;
   }
 }
