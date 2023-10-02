@@ -100,7 +100,22 @@ public class SumOfNodes {
    * @return
    */
   private int sumNumbers(TreeNode root) {
-    // to be done using DFS
-    return 0;
+    if(root == null){
+      return 0;
+    }
+    return sumNumbers(root, 0);
+  }
+
+  private int sumNumbers(TreeNode root, int sum) {
+    if(root == null){
+      return 0;
+    }
+    sum = (sum * 10) + root.val;
+    if(root.left == null && root.right == null){
+      return sum;
+    }
+    int leftSum = sumNumbers(root.left, sum);
+    int rightSum = sumNumbers(root.right, sum);
+    return leftSum + rightSum;
   }
 }
