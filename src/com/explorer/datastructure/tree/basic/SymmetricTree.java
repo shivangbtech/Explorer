@@ -1,4 +1,4 @@
-package com.explorer.datastructure.tree;
+package com.explorer.datastructure.tree.basic;
 
 import com.explorer.datastructure.tree.model.TreeNode;
 
@@ -10,7 +10,13 @@ public class SymmetricTree {
 
     public static void main(String[] args) {
         SymmetricTree sInstance = new SymmetricTree();
-
+        TreeNode root = new TreeNode(1);
+        root.left = new TreeNode(2);
+        root.right = new TreeNode(3);
+        root.left.left = new TreeNode(4);
+        root.left.right = new TreeNode(5);
+        root.right.left = new TreeNode(8);
+        System.out.println("isSymmetric = " + sInstance.isSymmetric(root));
     }
 
     public boolean isSymmetric(TreeNode root) {
