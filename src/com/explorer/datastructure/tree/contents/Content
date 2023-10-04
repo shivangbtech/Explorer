@@ -5,13 +5,12 @@
 5) Level Order - BFS
 6) Node Counts
 7) Sum Of Nodes - BFS
-8) Tree Height
-9) Tree Diameter
+8) Sum Of Nodes - DFS
+9) Tree Height
+10) Tree Diameter
 ---
-10) isSubtree
-11) isIdentical
-12) isSymmetric
-13) isValidBST
-14) sumOfKLevel
-15) DFS
-16) Sum Of Nodes - BFS
+10) isSubtree or isIdentical
+11) isSymmetric
+12) isValidBST
+13) sumOfKLevel
+
