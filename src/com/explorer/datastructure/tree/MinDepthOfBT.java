@@ -11,7 +11,16 @@ import com.explorer.datastructure.tree.model.TreeNode;
  */
 public class MinDepthOfBT {
     public static void main(String[] args) {
-
+        // Example Usage
+        TreeNode root = new TreeNode(1);
+        root.left = new TreeNode(2);
+        root.right = new TreeNode(3);
+        root.left.left = new TreeNode(4);
+        root.left.right = new TreeNode(5);
+//        root.right.left = new TreeNode(10);
+        MinDepthOfBT minDepthOfBT = new MinDepthOfBT();
+        System.out.println("MinDepthOfBT = " + minDepthOfBT.minDepthUsingDFS(root));
+        System.out.println("MinDepthOfBT = " + minDepthOfBT.minDepthUsingBFS(root));
     }
 
     public int minDepthUsingDFS(TreeNode root) {
