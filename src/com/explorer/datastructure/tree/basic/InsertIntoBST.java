@@ -22,7 +22,7 @@ public class InsertIntoBST {
     root.left.right = new TreeNode(5);
     root.right.left = new TreeNode(9);
     InsertIntoBST insertIntoBST = new InsertIntoBST();
-    System.out.println("insertIntoBST = " + insertIntoBST.insertIntoBST(root, 6));
+    System.out.println("insertIntoBST = " + insertIntoBST.insertIntoBST(root, 6).val);
   }
 
   public TreeNode insertIntoBST(TreeNode root, int val) {
