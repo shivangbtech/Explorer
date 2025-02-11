@@ -3,6 +3,29 @@ package com.explorer.datastructure.sliddingwindow;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Longest Substring with K Uniques
+ *
+ * Given a string s, you need to print the size of the longest possible substring with exactly k unique characters. If no possible substring exists, print -1.
+ *
+ * Examples:
+ *
+ * Input: s = "aabacbebebe", k = 3
+ * Output: 7
+ * Explanation: "cbebebe" is the longest substring with 3 distinct characters.
+ * Input: s = "aaaa", k = 2
+ * Output: -1
+ * Explanation: There's no substring with 2 distinct characters.
+ * Input: s = "aabaaab", k = 2
+ * Output: 7
+ * Explanation: "aabaaab" is the longest substring with 2 distinct characters.
+ * Constraints:
+ * 1 ≤ s.size() ≤ 105
+ * 1 ≤ k ≤ 26
+ * All characters are lowercase letters
+ *
+ * https://www.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1
+ */
 public class LongestSubstringWithKUniques {
 
   public static void main(String[] args) {
