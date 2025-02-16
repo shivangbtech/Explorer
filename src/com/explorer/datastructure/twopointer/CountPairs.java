@@ -43,7 +43,6 @@ public class CountPairs {
       int sum = arr[s] + arr[e];
       if(sum == target){
         pair++;
-        int temp = s;
         while(s < e && arr[s] == arr[s+1]){
           pair++;
           s++;
