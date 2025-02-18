@@ -7,3 +7,5 @@ https://github.com/arpit20adlakha/Data-Structure-Algorithms-LLD-HLD
 https://github.com/karanpratapsingh/system-design
 
 https://github.com/InterviewReady/system-design-resources
+
+https://github.com/dvsakgec/System-Design-Notes
